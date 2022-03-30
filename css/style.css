@@ -9,13 +9,26 @@ header {
     background-color: #1f2936;
 }
 
-.part-1 {
-    color: #f9faf8;
-}
-
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #f9faf8;
+}
+
+.part-1 ul,
+.secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.right p {
+    color: #f9faf8;
+    background-color: grey;
+}
+
+.left a {
+    text-decoration-style: none;
+    color: #f9faf8;
 }
 
 ul {
@@ -24,8 +37,23 @@ ul {
     list-style: none;
 }
 
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.part-1 {
+    margin: 0px 200px;
+}
+
 /* flex */
 
+.part-1 {
+    justify-content: space-between;
+}
+
+ul,
 .part-1 {
     display: flex;
 }

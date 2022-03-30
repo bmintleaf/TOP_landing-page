@@ -1,3 +1,31 @@
 * {
     font-family: 'Roboto', sans-serif;
+    border: 1px red solid;
+}
+
+/* style */
+
+header {
+    background-color: #1f2936;
+}
+
+.part-1 {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* flex */
+
+.part-1 {
+    display: flex;
 }

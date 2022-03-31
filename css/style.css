@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
     border: 1px red solid;
 }
 
@@ -7,6 +9,7 @@
 
 header {
     background-color: #1f2936;
+    padding: 50px 0px;
 }
 
 .logo {
@@ -54,6 +57,13 @@ ul {
 }
 
 ul,
-.part-1 {
+.part-1,
+.part-2 {
     display: flex;
+    gap: 20px;
+}
+
+.left,
+.right {
+    flex: 1;
 }

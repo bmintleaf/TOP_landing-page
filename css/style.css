@@ -121,10 +121,33 @@ ul,
     font-weight: 1000;
 }
 
+.pics {
+    height: 150px;
+    width: 150px;
+}
+
 /* || Info flex */
 
 .random-info {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic-1, .pic-2, .pic-3, .pic-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 1em;
+}
+
+.text {
+    width: 50px;
 }

@@ -116,5 +116,12 @@ ul,
     color: #1f2937;
     font-size: 36px;
     font-weight: 1000;
-    text-align: center;
+}
+
+/* || Info flex */
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

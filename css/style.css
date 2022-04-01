@@ -6,8 +6,9 @@
 /* style */
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 1280px;
 }
 header {
     background-color: #1f2936;
@@ -26,6 +27,16 @@ header {
     font-size: 18px;
     text-decoration: none;
 }
+.left a {
+    text-decoration-style: none;
+    color: #f9faf8;
+    background-color: #3882f6;
+    text-align: center;
+    width: 100px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
 
 .right {
     background-color: grey;
@@ -36,17 +47,10 @@ header {
     background-color: grey;
 }
 
-.left a {
-    text-decoration-style: none;
-    color: #f9faf8;
-}
+
 
 .left * {
     margin: 0;
-}
-
-.left a {
-    background-color: #3882f6;
 }
 
 ul {
@@ -100,5 +104,5 @@ ul,
 .left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
+

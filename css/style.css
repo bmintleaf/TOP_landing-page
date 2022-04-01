@@ -63,6 +63,9 @@ ul {
     font-weight: bolder;
 }
 
+.mar {
+    margin: 0px 150px;
+}
 .part-1 {
     margin: 20px 150px;
 }

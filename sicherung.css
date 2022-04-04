@@ -8,6 +8,7 @@
 body {
     margin: auto;
     padding: 0;
+    max-width: 1280px;
 }
 header {
     background-color: #1f2936;
@@ -31,21 +32,23 @@ header {
     color: #f9faf8;
     background-color: #3882f6;
     margin-top: 0.25em;
-    width: 7em;
+    width: 100px;
     border-radius: 10px;
-    justify-content: center;
-    display: flex;
-    height: 2em;
-    font-weight: 700;
-    align-items: center;
 }
 
 .right {
     background-color: grey;
+    height: 200px;
 }
 .right p {
     color: #f9faf8;
     background-color: grey;
+}
+
+
+
+.left * {
+    margin: 0;
 }
 
 ul {
@@ -57,62 +60,56 @@ ul {
 .awesome {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
-.container-1 {
-    max-width: 70%;
+.mar {
+    margin: 0px 150px;
+}
+.part-1 {
+    margin: 20px 150px;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+.part-2 {
+    margin: 130px 150px;
 }
+
 /* flex */
-
-header {
-    justify-content: center;
-    display: flex;
-}
-
-.container-1,
-.part-1,
-.part-2,
-.left,
-.right,
-ul {
-    display: flex;
-}
-
-ul {
-    gap: 1em;
-}
-
-.container-1 {
-    flex-direction: column;
-    width: 75%;
-    gap: 8.25em;
-}
 
 .part-1 {
     justify-content: space-between;
 }
 
+ul,
+.part-1,
 .part-2 {
-    margin-bottom: 8.25em;
+    display: flex;
+    gap: 20px;
 }
 
+.part-2 {
+    align-items: center;
+}
+
+.left a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 2em;
+}
 .left,
 .right {
     flex-basis: 50%;
 }
 
 .right {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .left {
+    display: flex;
     flex-direction: column;
 }
 

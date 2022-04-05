@@ -202,7 +202,32 @@ ul {
 }
 .action {
     background-color: #3882f6;
-    flex-basis: 70%;
+    flex-basis: 65%;
+    border-radius: 0.5em;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+.action-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #f9faf8 solid;
+    border-radius: 0.5em;
+    flex-basis: 14%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.prod {
+    font-size: 18px;
 }
 
 /* footer */

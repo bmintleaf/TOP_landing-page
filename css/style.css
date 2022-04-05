@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    border: 1px red solid;
 }
 
 /* style */
@@ -62,6 +61,7 @@ ul {
 
 .container-1 {
     max-width: 70%;
+    margin-top: 1em;
 }
 
 p {
@@ -143,7 +143,7 @@ ul {
     justify-content: center;
     margin-bottom: 8.25em;
     flex-wrap: wrap;
-
+    gap: 0.25em;
 }
 
 .pics {
@@ -176,6 +176,7 @@ ul {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 5em 0em;
 }
 
 .container-3 {

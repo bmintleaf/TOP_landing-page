@@ -193,3 +193,14 @@ ul {
     color: #1f2937;
 
 }
+
+/* action */
+.action-part {
+    margin: 5em 0em;
+    display: flex;
+    justify-content: center;
+}
+.action {
+    background-color: #3882f6;
+    flex-basis: 70%;
+}

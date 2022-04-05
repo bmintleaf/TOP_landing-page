@@ -204,3 +204,17 @@ ul {
     background-color: #3882f6;
     flex-basis: 70%;
 }
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0em;
+}
+
+.copyright {
+    color: #f9faf8;
+    font-size: 18px;
+}
